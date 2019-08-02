@@ -1,0 +1,41 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(21,88,88);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+div#conteudo{
+    text-align: center;
+    width: 420px;
+    height: 450px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 0 15px 20px rgb(44, 43, 43);
+}
+div#container{
+    color: rgb(21,88,88);
+    background-color: rgb(180,255,201);
+    width: 420px;
+    font-weight: bold;
+    font-size: 22px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+input#numero{
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: rgb(21,88,88);
+    background-color: transparent;
+    text-align: center;
+    text-decoration-color: rgb(255,204,0);
+    margin: 20px;
+    height: 30px;
+}
+img{
+    vertical-align: middle;
+}
