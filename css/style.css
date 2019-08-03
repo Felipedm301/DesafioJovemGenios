@@ -1,6 +1,6 @@
 body{
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     background-color: rgb(21,88,88);
     display: flex;
     flex-direction: row;
@@ -9,9 +9,10 @@ body{
     margin: 0px;
 }
 div#conteudo{
+    margin: 30px;
     text-align: center;
-    width: 700px;
-    height: 450px;
+    min-width: 500px;
+    min-height: 200px;
     background-color:white;
     border-radius: 20px;
     box-shadow: 0 15px 20px rgb(44, 43, 43);
@@ -19,7 +20,7 @@ div#conteudo{
 div#container{
     color: rgb(21,88,88);
     background-color: rgb(180,255,201);
-    width: 700px;
+    min-width: 500px;
     font-weight: bold;
     font-size: 22px;
     border-top-left-radius: 20px;
@@ -32,11 +33,12 @@ input#numero{
     border-bottom-color: rgb(21,88,88);
     background-color: transparent;
     text-align: center;
-    text-decoration-color: rgb(255,204,0);
+    font-weight: bold;
     margin: 10px;
-    height: 30px;
+    min-height: 30px;
     box-shadow: 0 0 0 0;
     outline: 0;
+    color: rgb(255,204,0);
 }
 div#Resposta{
     text-align: center;
@@ -51,4 +53,6 @@ input#buttonExibir{
     background-color: rgb(255,204,0);
     color: rgb(21,88,88);
     font-weight: bold;
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
